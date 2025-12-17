@@ -6,3 +6,4 @@ kettle_script 常用脚本。它提供了一些常用脚本，帮助用户更高
 ### 详细说明
 - `common/gen_time_step.ktr`：生产时间步长脚本模板，方便生成时间序列数据，根据时间步长进行数据处理，防止全量数据，导致内存不足。
 - `common/get_id_list.ktr`：获取id列表，循环处理数据集中的每个id，实现批量数据处理，防止全量数据，导致内存不足。
+- `example/get_data_amac.ktr`: 使用kettle从协会网页提取数据。
